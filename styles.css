@@ -29,7 +29,7 @@ input[type=button] {
   border: 1px solid white;
 }
 input[type=text] {
-  width: 371px;
+  width: 351px;
   height: 123px;
   background-color: #61b34f;
   color: white;
@@ -37,6 +37,7 @@ input[type=text] {
   border: 1px solid white;
   margin-bottom: -3px;
   text-align: right;
+  padding-right: 20px;
 }
 
 input[type=button].function {

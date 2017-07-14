@@ -8,24 +8,24 @@
   <body>
     <div class="calc">
       <ul class="ulist">
-        <li id="clear"><input type="button" name="clear" value = C></li>
-        <li id="input"><input type="text" name="input" value = ""></li>
-        <li id="seven"><input type="button" name="seven" value = 7></li>
-        <li id="eight"><input type="button" name="eight" value = 8></li>
-        <li id="nine"><input type="button" name="nine" value = 9></li>
-        <li id="divide"><input type="button" class= "function" name="divide" value = /></li>
-        <li id="four"><input type="button" name="four" value = 4></li>
-        <li id="five"><input type="button" name="five" value = 5></li>
-        <li id="six"><input type="button" name="six" value = 6 onclick="test()"></li>
-        <li id="multiply"><input type="button" class= "function" name="multiply" value = X></li>
-        <li id="one"><input type="button" name="one" value = 1 onclick="test()"></li>
-        <li id="two"><input type="button" name="two" value = 2></li>
-        <li id="three"><input type="button" name="three" value = 3></li>
-        <li id="subtract"><input type="button" class= "function" name="subtract" value = -></li>
-        <li id="zero"><input type="button" name="zero" value = 0></li>
-        <li id="dot"><input type="button" name="dot" value = .></li>
-        <li id="equal"><input type="button" name="equal" value = =></li>
-        <li id="add"><input type="button" class= "function" name="add" value = +></li>
+        <li id="clear"><input type="button" name="clear" value=C onclick="clickClear()"></li>
+        <li id="input"><input type="text" name="input" value=""></li>
+        <li class="numbers" id="seven"><input type="button" name="seven" value="7" onclick="clickButton7()"></li>
+        <li id="eight"><input type="button" name="eight" value="8" onclick="clickButton8()"></li>
+        <li id="nine"><input type="button" name="nine" value="9" onclick="clickButton9()"></li>
+        <li id="divide"><input type="button" class="function" name="divide" value =/ onclick="clickSymbol1()"></li>
+        <li id="four"><input type="button" name="four" value="4" onclick="clickButton4()"></li>
+        <li id="five"><input type="button" name="five" value="5" onclick="clickButton5()"></li>
+        <li id="six"><input type="button" name="six" value="6" onclick="clickButton6()"></li>
+        <li id="multiply"><input type="button" class= "function" name="multiply" value=X onclick="clickSymbol2()"></li>
+        <li class="numbers" id="one"><input type="button" name="one" value=1 onclick="clickButton1()"></li>
+        <li id="two"><input type="button" name="two" value="2" onclick="clickButton2()"></li>
+        <li id="three"><input type="button" name="three" value="3" onclick="clickButton3()"></li>
+        <li id="subtract"><input type="button" class= "function" name="subtract" value=- onclick="clickSymbol3()"></li>
+        <li id="zero"><input type="button" name="zero" value="0" onclick="clickButton0()"></li>
+        <li id="dot"><input type="button" name="dot" value=. onclick="clickSymbol5()"></li>
+        <li id="equal"><input type="button" name="equal" value== onclick="equals()"></li>
+        <li id="add"><input type="button" class= "function" name="add" value=+ onclick="clickSymbol4()"></li>
       </ul>
     </div>
   <script src="main.js"></script>

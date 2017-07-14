@@ -1,0 +1,44 @@
+/*bright green #61B34F
+light green #82C276
+dark green #3E5E36*/
+
+body {
+  font-family: Helvetica, sans-serif;
+  width: 505px;
+  height: 625px;
+}
+
+ul {
+  list-style: none;
+  width: 505px;
+  height: 625px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 125px;
+}
+
+input[type=button] {
+  width: 125px;
+  height: 125px;
+  background-color: #61b34f;
+  color: white;
+  font-size: 40px;
+  border: 1px solid white;
+}
+input[type=text] {
+  width: 371px;
+  height: 123px;
+  background-color: #61b34f;
+  color: white;
+  font-size: 40px;
+  border: 1px solid white;
+  margin-bottom: -3px;
+  text-align: right;
+}
+
+input[type=button].function {
+  background-color: #82c276;
+}
